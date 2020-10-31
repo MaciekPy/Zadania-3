@@ -1,0 +1,19 @@
+1.Ten kod nie jest poprawny ponieważ są średniki na końcu instukcji,
+W Pythonie nie są one używane
+
+x = 2; y = 3;
+if (x > y):
+    result = x;
+else:
+    result = y;
+	
+
+2.Ten kod nie jest poprawny ponieważ,
+następne instukcje warunkowe muszą stać w następnej linicje.
+
+for i in "qwerty": if ord(i) < 100: print (i)
+
+
+3.Ten kod jest poprawny
+
+for i in "axby": print (ord(i) if ord(i) < 100 else i)

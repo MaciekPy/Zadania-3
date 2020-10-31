@@ -1,0 +1,23 @@
+1. Nie potrzene jest przypisywanie L = L.sort()
+
+L = [3, 5, 4] ; L = L.sort()
+
+2. Są dwie zmienne i trzy wartości
+
+x, y = 1, 2, 3
+
+3.X nie jest listą
+
+X = 1, 2, 3 ; X[1] = 4
+
+4.X[3] nie istnieje, należy użyć append()
+
+X = [1, 2, 3] ; X[3] = 4
+
+5.append nie można używać do stringów
+
+X = "abc" ; X.append("d")
+
+6.W funkcji pow brakuje argumentu
+
+L = list(map(pow, range(8)))
